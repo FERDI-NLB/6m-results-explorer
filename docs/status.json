@@ -1,10 +1,11 @@
 {
-  "state": "waiting",
+  "state": "error",
   "baseline_draw": 6348,
   "latest_verified_draw": 6348,
-  "last_attempt_at": null,
+  "last_attempt_at": "2026-10-23T11:50:30Z",
   "last_successful_check_at": null,
   "last_updated_at": null,
   "last_updated_draws": [],
-  "message": "Waiting for the first automated result check."
+  "message": "Update blocked: Could not verify complete draw records in official NLB HTML. Parser needs validation against live markup; no data changes made.",
+  "last_error": "Could not verify complete draw records in official NLB HTML. Parser needs validation against live markup; no data changes made."
 }
