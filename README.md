@@ -28,3 +28,7 @@ The workbook lists draw 6348 as **D786987**, whereas an NLB-branded listing curr
 ## Technical validation
 
 Run `python scripts/update.py` locally after installing `requirements.txt`. A successful run with no new result makes no changes. An official result must include draw number, ISO date, letter and exactly six digits in the same result block. Conflicts, missing intermediate draws, future dates, or unreachable source cause the workflow to fail.
+
+## On-page update status
+
+The webpage reads `docs/status.json` and displays the last attempt time, last successful check, last dataset update, latest verified draw, and checker status. Times are shown in Sri Lanka time. The hourly workflow records an attempt even if the official page cannot be parsed, and commits status changes so the public page can show failures instead of silently appearing stale. A failed or unparseable official result is never treated as a successful data update.

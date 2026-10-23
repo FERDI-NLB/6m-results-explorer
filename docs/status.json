@@ -1,0 +1,10 @@
+{
+  "state": "waiting",
+  "baseline_draw": 6348,
+  "latest_verified_draw": 6348,
+  "last_attempt_at": null,
+  "last_successful_check_at": null,
+  "last_updated_at": null,
+  "last_updated_draws": [],
+  "message": "Waiting for the first automated result check."
+}
