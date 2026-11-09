@@ -2,10 +2,10 @@
   "state": "error",
   "baseline_draw": 6348,
   "latest_verified_draw": 6348,
-  "last_attempt_at": "2026-11-09T04:16:22Z",
+  "last_attempt_at": "2026-11-09T05:27:19Z",
   "last_successful_check_at": null,
   "last_updated_at": null,
   "last_updated_draws": [],
-  "message": "Update blocked: Could not verify complete draw records in official NLB HTML. Parser needs validation against live markup; no data changes made.",
-  "last_error": "Could not verify complete draw records in official NLB HTML. Parser needs validation against live markup; no data changes made."
+  "message": "Update blocked: HTTPSConnectionPool(host='www.nlb.lk', port=443): Max retries exceeded with url: /results/mahajana-sampatha (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nlb.lk', port=443) at 0x7923f5a9e990>, 'Connection to www.nlb.lk timed out. (connect timeout=30)'))",
+  "last_error": "HTTPSConnectionPool(host='www.nlb.lk', port=443): Max retries exceeded with url: /results/mahajana-sampatha (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nlb.lk', port=443) at 0x7923f5a9e990>, 'Connection to www.nlb.lk timed out. (connect timeout=30)'))"
 }
